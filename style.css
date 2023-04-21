@@ -1,0 +1,61 @@
+body {
+    background-color: #849175;
+}
+
+form {
+    margin: 10% 40% 10% 40%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+.form-sec {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.campo {
+    margin-bottom: 25px;
+    height: 30px;
+    padding: 10px;
+    border: solid 2px #849175;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.boton {
+    background: #849175;
+    border: solid 0;
+    color: #fff;
+    padding: 10px;
+}
+
+.errores {
+    display: none;
+    position: absolute;
+    margin-left: 220px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: #393f31;
+    color: white;
+    border-radius: 1rem;
+    border: solid 2px rgb(186, 8, 8);
+}
